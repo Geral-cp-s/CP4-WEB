@@ -1,6 +1,14 @@
+/* variáveis */
+:root {
+    --color-light: #ffffff;
+    --color-blue: #222;
+    --transition: .5s;
+}
+
 /* Reset da página */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }

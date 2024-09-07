@@ -56,9 +56,87 @@ export const MainGeral = styled.main`
     width: 100%;
     padding: 10px;
 
+    /* variáveis */
+    :root {
+        --color-light: #ffffff;
+        --color-blue: #6959c5;
+        --transition: .5s;
+    }
+
     h1{
         text-align: center;
         color: black;
     }
 
+    a {
+        text-decoration: none;
+        color: var(--color-light);
+        font-weight: 900;
+        transition: var(--transition);
+    }
+
+
+    .card-title {
+        font-size: 5vmin;
+        text-align: center;
+        margin: 4rem 0 2rem;
+        color: var(--color-blue);
+    }
+
+    .card-list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-item {
+        width: 28%;
+        margin: 3rem 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        box-shadow: 1px 1px 30px #ccc;
+        border-radius: 5px;
+        transition: var(--transition);
+    }
+
+    .card-item:hover {
+        transform: scale(1.1);
+    }
+
+    .card-item img {
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    .card-item h3{
+        margin: 2rem 0;
+        font-weight: 800;
+    }
+
+    .card-item p {
+        margin: 0 0 3rem;
+        width: 80%;
+    }
+
+        .btn {
+        background-color: var(--color-blue);
+        border: 2px solid var(--color-blue);
+        padding: 8px 3.5rem;
+        border-radius: 5px;
+        color: var(--color-light);
+        transition: var(--transition);
+    }
+
+    .btn:hover {
+        background-color: transparent;
+        color: var(--color-blue)
+    }
+
+    
 `
