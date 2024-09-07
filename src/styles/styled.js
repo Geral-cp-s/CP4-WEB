@@ -56,13 +56,6 @@ export const MainGeral = styled.main`
     width: 100%;
     padding: 10px;
 
-    /* variáveis */
-    :root {
-        --color-light: #ffffff;
-        --color-blue: #6959c5;
-        --transition: .5s;
-    }
-
     h1{
         text-align: center;
         color: black;
@@ -138,5 +131,70 @@ export const MainGeral = styled.main`
         color: var(--color-blue)
     }
 
-    
+    // Estilização página Sobre
+
+    .quemsomos{
+        margin: 2.7vh;
+    }
+
+    .quemsomos img{
+        width: 100px;
+        border-radius: 5px;
+        margin: 2%;
+        box-shadow: 1px 1px 30px #ccc;
+    }
+
+    .quemsomos {
+        display: grid;
+        grid-template-rows: 3fr 2fr;
+        grid-template-areas: 
+        "texto"
+        "git";
+        justify-content: center;
+        padding: 10vh;
+    }
+
+    .quemsomos h2 {
+        font-weight:10px;
+    }
+
+    .quemsomos p {
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    #texto {
+        grid-area: texto;
+    }
+
+
+    .git {
+        margin: 15px;
+        grid-area: git;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "git1 git2 git3 git4";
+    }
+
+    .git1 {
+        grid-area: git1;
+        display: flex;
+        justify-content: center;
+    }
+    .git2 {
+        grid-area: git2;
+        display: flex;
+        justify-content: center;
+    }
+    .git3 {
+        grid-area: git3;
+        display: flex;
+        justify-content: center;
+    }
+    .git4 {
+        grid-area: git4;
+        display: flex;
+        justify-content: center;
+    }
+
 `

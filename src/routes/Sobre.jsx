@@ -1,22 +1,31 @@
 import { MainGeral } from "../styles/styled"
+import FotoAugusto from "../img/augusto.jpg"
+import FotoGabriel from "../img/gabriel.jpg"
+import FotoGuilherme from "../img/guilherme.jpg"
+import FotoGustavo from "../img/gustavo.jpg"
 
 
 const Sobre = () =>{
     return(
         <MainGeral>
         <h1>Sobre</h1>
-        <p>
-        Bem-vindo à G4Tech Sports!
-        Somos sua loja online de confiança especializada em material esportivo de alta qualidade. Fundada com o objetivo de transformar a maneira como você se conecta com o esporte, a G4Tech Sports combina inovação, tecnologia e paixão para oferecer o melhor em equipamentos e acessórios para atletas de todos os níveis.
-        Na G4Tech Sports, acreditamos que o esporte vai além de um simples passatempo; é uma forma de vida. Por isso, dedicamos nossa expertise para proporcionar a você uma experiência de compra excepcional, com uma ampla gama de produtos que atendem desde o entusiasta do fitness até o atleta profissional.
-        Nosso Compromisso:
-        Qualidade: Trabalhamos com as principais marcas e fornecedores do mercado para garantir que cada produto disponível em nossa loja seja de excelente qualidade e durabilidade.
-        Inovação: Utilizamos a tecnologia mais avançada para oferecer uma plataforma de compras fácil, segura e personalizada, para que você encontre rapidamente o que precisa.
-        Atendimento: Nossa equipe de atendimento ao cliente está sempre pronta para ajudar, com um suporte ágil e eficiente para que sua experiência de compra seja perfeita.
-        Sustentabilidade: Estamos comprometidos com práticas responsáveis e sustentáveis, promovendo produtos que respeitam o meio ambiente e contribuindo para um futuro mais verde.
-        Navegue por nossa loja e descubra uma vasta seleção de produtos, desde tênis de corrida e roupas esportivas até acessórios de treino e equipamentos de última geração. Na G4Tech Sports, cada detalhe é pensado para que você alcance seus objetivos esportivos com mais eficiência e prazer.
-        Junte-se a nós nessa jornada pelo melhor desempenho e bem-estar! Se você tem alguma dúvida ou precisa de assistência, nossa equipe está aqui para ajudar. Agradecemos por escolher a G4Tech Sports e esperamos ser seu parceiro confiável no mundo dos esportes!
-        </p>
+        <section className="quemsomos">
+
+            <div id="texto">
+            <h2>Quem somos?</h2>
+
+            <p>
+            No início de 2024, começamos o curso de Engenharia de Software na FIAP com grande entusiasmo pelo   desenvolvimento web. Desde o início, a experiência tem sido transformadora. Participamos de   hackathons, workshops e desafios práticos, mergulhando em novas tecnologias e discutindo tendências   emergentes. Cada projeto e atividade nos proporcionou oportunidades valiosas para aplicar o que   aprendemos e explorar nossa criatividade. Nossa jornada até agora tem sido marcada pela colaboração   intensa e pela busca constante de inovação. Estamos motivados por um objetivo comum: fazer a diferença    na indústria de tecnologia e enfrentar os desafios do futuro com determinação e criatividade. A cada   passo, sentimos que estamos cada vez mais preparados para transformar o cenário digital e deixar nossa    marca no mundo da engenharia de software. Se quiser saber mais sobre nós ou compartilhar ideias, segue     nossos links do <strong>GITHUB</strong>.
+            </p>
+            </div> 
+
+            <div className="git">
+            <a className="git git1" href="https://github.com/gutomend"><img src={ FotoAugusto } alt="github Augusto"/></a>
+            <a className="git git2" href="https://github.com/gvqsilva"><img src= { FotoGabriel }alt="github Gabriel"/></a>
+            <a className="git git3" href="https://github.com/guilhermearaujodec"><img src={ FotoGuilherme } alt="github Guilherme"/></a>
+            <a className="git git4" href="https://github.com/Gusta346"><img src={ FotoGustavo } alt="github Gustavo"/></a>
+            </div>
+        </section>
         </MainGeral>
     )
 }
