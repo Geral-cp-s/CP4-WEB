@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { NavMenu } from "../../styled"
+import { NavMenu } from "../styles/styled"
 
 const Nav = () =>{
     return(

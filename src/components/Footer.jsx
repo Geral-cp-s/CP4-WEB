@@ -1,4 +1,4 @@
-import { Rodape } from "../../styled"
+import { Rodape } from "../styles/styled"
 
 const Footer = () =>{
     return(

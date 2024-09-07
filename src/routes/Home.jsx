@@ -1,4 +1,4 @@
-import { MainGeral } from "../../styled"
+import { MainGeral } from "../styles/styled"
 
 
 const Home = () =>{

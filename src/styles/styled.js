@@ -23,6 +23,7 @@ export const Rodape = styled.footer `
     justify-content: center;
     align-items: center;
     background-color: black;
+    
 
     p{
         color: #fff;
