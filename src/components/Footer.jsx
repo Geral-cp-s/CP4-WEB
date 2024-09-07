@@ -3,7 +3,7 @@ import { Rodape } from "../styles/styled"
 const Footer = () =>{
     return(
         <Rodape>
-        <p>2024@-Todos os direitos reservados</p>
+        <p>Copyright © 2024 - G4-Tech</p>
         </Rodape>
     )
 }
