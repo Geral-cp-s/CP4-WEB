@@ -1,3 +1,5 @@
+import { MainGeral } from "../../styled"
+
 const Error = () =>{
     return(
         <>
