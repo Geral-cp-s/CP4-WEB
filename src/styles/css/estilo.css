@@ -1,7 +1,8 @@
 /* variáveis */
 :root {
-    --color-light: #ffffff;
-    --color-blue: #222;
+    --color1: #ffffff;
+    --color2: #222;
+    --color3: #eee;
     --transition: .5s;
 }
 

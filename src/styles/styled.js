@@ -63,7 +63,7 @@ export const MainGeral = styled.main`
 
     a {
         text-decoration: none;
-        color: var(--color-light);
+        color: var(--color-1);
         font-weight: 900;
         transition: var(--transition);
     }
@@ -73,7 +73,7 @@ export const MainGeral = styled.main`
         font-size: 5vmin;
         text-align: center;
         margin: 4rem 0 2rem;
-        color: var(--color-blue);
+        color: var(--color2);
     }
 
     .card-list {
@@ -118,17 +118,17 @@ export const MainGeral = styled.main`
     }
 
         .btn {
-        background-color: var(--color-blue);
-        border: 2px solid var(--color-blue);
+        background-color: var(--color2);
+        border: 2px solid var(--color2);
         padding: 8px 3.5rem;
         border-radius: 5px;
-        color: var(--color-light);
+        color: var(--color1);
         transition: var(--transition);
     }
 
     .btn:hover {
         background-color: transparent;
-        color: var(--color-blue)
+        color: var(--color2);
     }
 
     // Estilização página Sobre
@@ -196,5 +196,52 @@ export const MainGeral = styled.main`
         display: flex;
         justify-content: center;
     }
+
+    .formulario h2 {
+        font-weight:10px;
+        padding-left: 3%;
+    }
+
+    form{
+        padding: 2% 0 0 3%;
+        width: 40%;
+    }
+
+    fieldset {
+    padding: 0 30px 50px 30px;
+    border-radius: 3%;
+    border-color:white;
+
+    }
+    #contato{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 250px;
+    }
+
+    #c-nome, #c-email, #c-tel, #c-msg {
+        background-color: var(--color3);
+        width: 100%;
+        padding: 12px;
+        margin-top: 8px;
+        border: 1px solid var(--color3);
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+
+    #btn{
+        width: 80%;
+        padding: 12px;
+        margin-left: 10%;
+        margin-bottom: 1px;
+        background-color: var(--color2);
+        color: var(--color1);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
 
 `
