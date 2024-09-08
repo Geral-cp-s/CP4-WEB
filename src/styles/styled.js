@@ -35,19 +35,26 @@ export const Rodape = styled.footer `
 `
 export const NavMenu = styled.nav`
 
+header{
     width: 100%;
-    min-height: 1vh;
+    min-height: 8vh;
     padding: 10px;
     background-color: Black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+}
 
     a{
         text-decoration: none;
         color: white;
         font-size: 1.3em;
+    }
+
+    header a:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+    text-decoration-color: #555;
     }
 
 `
@@ -63,11 +70,12 @@ export const MainGeral = styled.main`
 
     a {
         text-decoration: none;
-        color: var(--color-1);
+        color: var(--color1);
         font-weight: 900;
         transition: var(--transition);
     }
 
+    // Estilização da rota Produtos
 
     .card-title {
         font-size: 5vmin;
@@ -131,7 +139,7 @@ export const MainGeral = styled.main`
         color: var(--color2);
     }
 
-    // Estilização página Sobre
+    // Estilização da rota Sobre
 
     .quemsomos{
         margin: 2.7vh;
@@ -197,6 +205,8 @@ export const MainGeral = styled.main`
         justify-content: center;
     }
 
+    // Estilização da rota Contato
+
     .formulario h2 {
         font-weight:10px;
         padding-left: 3%;
@@ -243,15 +253,15 @@ export const MainGeral = styled.main`
         margin-top: 10px;
     }
 
-    // Estilização página Home
+    // Estilização rota Home
 
     .home-container {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 0px;
   }
   
   .video-container {
-    width: 100vw;
+    width: 100%;
     height: 70vh; /* Define a altura do vídeo como 70% da altura da viewport */
     display: block;
   }
