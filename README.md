@@ -1,7 +1,7 @@
 <p align='center' >
   <img width="250px" loading="lazy" src = "https://github.com/Geral-cp-s/Sprint-Edge/assets/110639916/aa204473-bba7-4dc2-8db1-ea5744b8e9bc"/>
 </p>
-<h1 align="Center">Monitoramento Global de Vinherias com FIWARE e ESP32</h1>
+<h1 align="Center">EsporteElite - Loja de artigos esportivos</h1>
 
 # Índice
 * [Descrição do Projeto](#descricao)
