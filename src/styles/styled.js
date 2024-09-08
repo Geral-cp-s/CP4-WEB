@@ -243,5 +243,38 @@ export const MainGeral = styled.main`
         margin-top: 10px;
     }
 
+    // Estilização página Home
+
+    .home-container {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .video-container {
+    width: 100vw;
+    height: 70vh; /* Define a altura do vídeo como 70% da altura da viewport */
+    display: block;
+  }
+  
+  .home-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que o vídeo cubra toda a área */
+    border: none;
+  }
+  
+  .home-container h1 {
+    color: #2c3e50;
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  .home-container p {
+    color: #7f8c8d;
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
 
 `
