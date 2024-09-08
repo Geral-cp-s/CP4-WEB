@@ -5,10 +5,12 @@ const Nav = () =>{
     return(
         <>
         <NavMenu>
-        <Link to={'/'}>Home</Link>
-        <Link to={'/produtos'}>Produtos</Link>
-        <Link to={'/contato'}>Contato</Link>
-        <Link to={'/sobre'}>Sobre</Link>
+            <header>
+                <Link to={'/'}>Home</Link>
+                <Link to={'/produtos'}>Produtos</Link>
+                <Link to={'/contato'}>Contato</Link>
+                <Link to={'/sobre'}>Sobre</Link>
+            </header>
         </NavMenu>
         </>
     )
