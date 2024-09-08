@@ -10,7 +10,8 @@
 
 <h2 id="Descricao">Descrição do projeto</h2>
 <p>Este projeto tem como objetivo criar um site para uma loja de esportes, com foco em proporcionar uma experiência agradável e intuitiva para os usuários. O site permitirá que os clientes visualizem produtos esportivos e acessem informações sobre promoções e novidades.</p>
-<p>O projeto utiliza React para criar uma interface de usuário eficiente e escalável, permitindo o desenvolvimento de componentes reutilizáveis que facilitam a manutenção e o desempenho. A integração com React Router oferece uma navegação fluida e dinâmica entre diferentes páginas sem a necessidade de recarregamentos, proporcionando uma experiência de usuário mais rápida e intuitiva. Styled-Components é usado para estilização, permitindo a escrita de CSS diretamente dentro dos componentes JavaScript, o que resulta em um código mais modular e coeso, além de facilitar a criação de temas e a reutilização de estilos. Juntas, essas tecnologias contribuem para um desenvolvimento mais ágil e uma experiência de usuário aprimorada.</p>
+<p>O projeto utiliza React para criar uma interface de usuário eficiente e escalável, permitindo o desenvolvimento de componentes reutilizáveis que facilitam a manutenção e o desempenho. A integração com React Router oferece uma navegação fluida e dinâmica entre diferentes páginas sem a necessidade de recarregamentos, proporcionando uma experiência de usuário mais rápida e intuitiva.
+<p>Styled-Components é usado para estilização, permitindo a escrita de CSS diretamente dentro dos componentes JavaScript, o que resulta em um código mais modular e coeso, além de facilitar a criação de temas e a reutilização de estilos. Juntas, essas tecnologias contribuem para um desenvolvimento mais ágil e uma experiência de usuário aprimorada.</p>
 
 <h2 id="funcionalidades">Funcionalidades</h2>
   
